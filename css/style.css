@@ -763,6 +763,9 @@ header {
   .about_text {
     margin: auto;
   }
+  .about_text dt {
+    text-align: center;
+  }
   .text {
     font-size: 2rem;
     padding-top: 50px;
