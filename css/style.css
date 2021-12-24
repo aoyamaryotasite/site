@@ -727,13 +727,19 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+  .box_0 {
+    padding: 100px 0;
+  }
+  .box_3 {
+    padding: 40px 0;
+  }
   .box_5 {
     margin-bottom: 30px;
   }
   .about_image {
     display: block;
     width: 50%;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
   }
   .about_image img {
@@ -745,17 +751,20 @@ header {
   .text {
     font-size: 2rem;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     color: #000;
   }
   .sub_text {
     font-size: 1rem;
+    color: #000;
+    padding-left: 0;
+    text-align: center;
   }
   .sub_span {
     font-size: 1rem;
   }
   .works_item {
-    margin: 0 auto;
+    margin: 20px auto 150px auto;
   }
   .about_flex, .item-wrapper {
     display: block;
@@ -776,10 +785,10 @@ header {
     background-color: #000;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    display: block;
   }
   .js_slide {
     position: fixed;
-    display: block;
     top: 0;
     left: 0;
     -webkit-transition: all 0.5s;
@@ -848,7 +857,7 @@ header {
     width: 0;
   }
   .box_1 {
-    height: 1050px;
+    height: 1150px;
   }
   .side-scroll-card {
     width: 100%;
@@ -856,6 +865,9 @@ header {
   .side-scroll-card img {
     width: 100%;
     height: 100%;
+  }
+  .slider img {
+    width: 90vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
